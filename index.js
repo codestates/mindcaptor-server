@@ -29,7 +29,6 @@ sequelize.sync(/*{ force: true }*/);
 app.use(
     cors({
         origin: [
-            'http://localhost:3000/*',
             'http://localhost:3000',
             'http://localhost:4000',
             'http://ec2-3-15-179-101.us-east-2.compute.amazonaws.com',
