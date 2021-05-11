@@ -8,11 +8,17 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      nickname: {
+        type: Sequelize.STRING
+      },
       room_name: {
         type: Sequelize.STRING
       },
       room_id: {
         type: Sequelize.INTEGER
+      },
+      answer: {
+        type: Sequelize.STRING
       },
     });
   },

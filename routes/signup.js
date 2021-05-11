@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/guest.js');
+const controller = require('../controllers/signup');
 
-router.get('/', controller.get);
+router.post('/', controller.post);
 
 module.exports = router;
